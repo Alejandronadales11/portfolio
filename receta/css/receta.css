@@ -1,0 +1,51 @@
+/**********************************************/
+
+
+
+/**********************************************/
+
+@font-face {
+    font-family: agbalumo-regular;
+    src: url(../font/Agbalumo-Regular.ttf);
+}
+
+@font-face {
+    font-family: reboto-black;
+    src: url(../font/Roboto-Black.ttf);
+}
+
+* {box-sizing: border-box;}  /* el width incluye el padding 
+                                el espacio en blanco lo coge
+                                de dentro del cuadro 
+                                lo haré SIEMPRE */
+
+body {background-color:rgb(130, 172, 169);
+    background-image: url(../img/vecteezy_beautiful-daisy-white-flower-blossom-botanical-floral_.jpg);
+    background-size: 50%;}
+
+#wrapper {background-color: hsl(0, 0%, 100%);
+          width:80%;             /* el width va en %  */
+          margin:auto;
+          padding:10%;
+          border-radius:20px;
+}              
+
+h1 {border:2px solid rgb(0, 26, 255);
+    text-align:center;
+    padding:10px 0;
+    border-radius: 0px 0px 60px 60px;
+    /* sombra de caja */
+    box-shadow: 15px 15px 5px gray;
+    
+}
+
+blockquote {border-left:3px solid rgb(25, 0, 255);
+            font-style: italic;  /* poner en cursiva */
+            font-weight: bold;   /* poner en negrita */
+            background-color: #f7f5a8;
+            padding:10px;        /* margin y padding pequeños pueden estar en pixeles */
+        }
+
+dt {font-weight:bold;
+    color:rgb(46, 0, 252);
+    font-size:1.2em;}
