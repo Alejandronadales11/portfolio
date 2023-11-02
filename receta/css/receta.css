@@ -5,12 +5,12 @@
 /**********************************************/
 
 @font-face {
-    font-family: agbalumo-regular;
+    font-family:Titulos;
     src: url(../font/Agbalumo-Regular.ttf);
 }
 
 @font-face {
-    font-family: reboto-black;
+    font-family:Textos;
     src: url(../font/Roboto-Black.ttf);
 }
 
@@ -21,13 +21,14 @@
 
 body {background-color:rgb(130, 172, 169);
     background-image: url(../img/vecteezy_beautiful-daisy-white-flower-blossom-botanical-floral_.jpg);
-    background-size: 50%;}
+    background-size: 50%;
+    font-family:Textos;}
 
 #wrapper {background-color: hsl(0, 0%, 100%);
           width:80%;             /* el width va en %  */
-          margin:auto;
-          padding:10%;
-          border-radius:20px;
+        margin:auto;
+        padding:10%;
+        border-radius:20px;
 }              
 
 h1 {border:2px solid rgb(0, 26, 255);
@@ -36,9 +37,17 @@ h1 {border:2px solid rgb(0, 26, 255);
     border-radius: 0px 0px 60px 60px;
     /* sombra de caja */
     box-shadow: 15px 15px 5px gray;
-    
+    font-family:Titulos;
+}
+.macarronesconchorizo {
+    width: 80%;
+    margin: 5%;
 }
 
+.macarronesconchorizo {
+    display: flex;
+    justify-content: center;
+}
 blockquote {border-left:3px solid rgb(25, 0, 255);
             font-style: italic;  /* poner en cursiva */
             font-weight: bold;   /* poner en negrita */
@@ -49,3 +58,9 @@ blockquote {border-left:3px solid rgb(25, 0, 255);
 dt {font-weight:bold;
     color:rgb(46, 0, 252);
     font-size:1.2em;}
+
+
+    /**********************************gestion de la responsividad **********************/
+
+@media only screen and (width<600px) {
+    #wrapper {width:95%}}
