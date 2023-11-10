@@ -46,7 +46,7 @@ nav {font-family: runas;}
 /**************************** intro ***************************/
 #jose {
     float: right;
-    width: 10%;
+    width: 20%;
     margin: 20px;}
 
 #dar {
@@ -69,6 +69,8 @@ h1 {font-family: titulos;
     margin: 10px;
 }
 nav {font-family: textos;}
+
+h3 {text-align: center;}
 
 #intro p::first-letter{font-size: 1.5em;
             color: rgb(223, 33, 33);}
