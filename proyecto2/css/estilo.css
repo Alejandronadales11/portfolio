@@ -30,7 +30,7 @@ nav {font-family: runas;}
 
 /************************************* Hero section **************************************/
 
-#Hero{background-image: url(../img/francotirador\ camuflado.jpg);
+#Hero{background-image: url(../img/francotiradorcamuflado.jpg);
     height: 95vh;       /**forzar el alto de la hero para ver la foto*/
     background-size:cover;      /* estira la foto para verla encajar*/
     background-repeat: no-repeat; 
@@ -46,7 +46,7 @@ nav {font-family: runas;}
 /**************************** intro ***************************/
 #jose {
     float: right;
-    width: 30%;
+    width: 20%;
     margin: 20px;}
 
 #dar {
