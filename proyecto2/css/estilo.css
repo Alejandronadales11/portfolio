@@ -189,8 +189,9 @@ h3 {text-align: center;}
     #topnav a:hover{width: 96,2%;}
     #topnav .icon{width: 96,2%;}
     #videos{width: 80%;
-           right:60%;}
-    #Url{width: 80%;}
+           right:70%;}
+    #Url{width: 80%;
+        right:70%;}
     #ig{width: 96,2%;}
     #github{width: 96,2%;}
 }
