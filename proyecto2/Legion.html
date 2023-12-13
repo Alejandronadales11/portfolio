@@ -4,110 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/soldado.png" type="image/x-icon">
-    <link rel="stylesheet" href="./java/java.js">
+    <script src="./java/java.js"></script>
     <title>La Legion española - Home</title>
 </head>
 
 <body>
     <div id="wrapper">  
         <nav> 
-            <div class="topnav" id="bytopnav">
-            <a href="#legion">intro</a>
-            <a href="#intro">Legion española</a>
-            <a href="#campaña">campaña</a>
-            <a href="#videos">Videos reales</a>
-            <a href="#Url">url de los videos</a>
-            <a href="#gallery">gallery</a>
-        <a href="javascript:void(0);"class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </div>
-        </a>
-    </nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#Hero" class="active">Home</a>
+                <a href="#intro">Fundacion de la Legion</a>
+                <a href="#campaña">La Campaña Africana</a>
+                <a href="#videos">videos</a>
+                <a href="#Url">Url de los videos</a>
+                <a href="#gallery">Galeria</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>  
+        </nav>
     <section id="Hero">
     Legion Española
     </section>
     <section id="intro">
-    <h1>
-    Fundacion de la Legión</h1>
-<img id="tercio" src="./img/tercio.png" alt=""> <br><br>
-<p>  Tercio  de  Extranjeros  -  nombre  original  de  La  Legión  -  nació  como fuerza  de  choque  para  la  dura  guerra  de  Marruecos.  Esta  nueva  fuerza  tenía como   objetivo   sustituir   a   las   Unidades   de   recluta   forzosa   cuya   pobre preparación   y   frágil   moral   era   motivo   de   gran   número   de   bajas   y dificultades en el desarrollo de las operaciones terrestres.
-<span id="dots">...</span><span id="more">
-Real  Decreto  de  28  de  enero  de  1920,  siendo  a  la  sazón  Ministro  de Guerra  don  José  Villalba,  Su  Majestad  el  Rey  don Alfonso  XIII  tuvo  a  bien disponer lo siguiente: 
-<< Con  la  denominación  de  Tercio  de  Extranjeros  se  creará  una  Unidad militar  armada,  cuyos  efectivos,  haberes  y  reglamento  por  que  ha  de  regirse serán fijados por el Ministro de Guerra. >>
-El   alistamiento   quedó   abierto   a   españoles   y   extranjeros   sin   mayores exigencias   que   ser   sanos,   fuertes   y   aptos   para   empuñar   las   armas, ofreciendo,  a  cambio,  la  posibilidad  de  hacer  carrera  militar  en  el  seno  de La Legión.
-De esta  forma,  se  veía  convertido  en  realidad  lo  que  comenzó  siendo  un proyecto  del  Teniente  Coronel  de  Infantería  José  Millán  Astray,  militar  de  prestigio  que  unía  a  una  elevada formación  militar  un  demostrado  heroísmo  forjado  en  Filipinas  y  posteriormente  en  África,  donde  mandó Fuerzas  Regulares.  Incluimos  a  continuación  el  relato  que  el  propio  Teniente  Coronel  Millán  Astray  hizo  sobre  el  origen  de  esta Unidad en su libro “La Legión” escrito en marzo de 1923.</span></p>
-<button onclick="myFunction()" id="myBtn">Leer mas+</button><br>
-</section>
-<section id="campaña">
-<h1>
-La Campaña Africana
-</h1>
-<p>
-Aqui os dejo un video explicando la campaña de africa
-https://www.youtube.com/watch?v=6U86hYkP1iE
-</p>
-<p>
-    <img id="dar" src="./img/darriffen.jpg" alt=""> <br><br>Según  se  producen  las  incorporaciones  de  voluntarios,  se  van formando  las  primeras  Banderas1  y  se  inicia  la  instrucción  en  la llamada  posición  A2,  verdadera  cuna  de  La  Legión,  situada  en las   proximidades   de   la   ciudad   de   Ceuta.   Posteriormente   se ocupó  el  acuartelamiento  de  Dar  Riffien,  que  disponía  de  mayor capacidad   y   mejores   instalaciones.   Volvemos   a   transcribir algunos pasajes de “La Legión” por venir muy a propósito:<span id="dots">...</span><span id="more">
- << Los   primeros   Legionarios.-   Habíamos   sufrido   un   error   de calculo  al  pensar  en  los  hombres  que  se  habían  de  presentar. Creíamos  que  vendrían  poco  a  poco,  por  grupos  de  ocho  o  diez al  día,  y  que  luego,  con  el  conocimiento  por  la  propaganda, vendrían  más;  pero  no  pensamos  en  la  explosión,  y  fue  que  en tres  días  se  habían  reunido  cuatrocientos.  No  había  que  dudar,  y se dijo “Que vengan”
+        <h1>
+        Fundacion de la Legión
+        </h1>
+        <img id="tercio" src="./img/tercio.png" alt=""> <br><br>
+        <p>  Tercio  de  Extranjeros  -  nombre  original  de  La  Legión  -  nació  como fuerza  de  choque  para  la  dura  guerra  de  Marruecos.  Esta  nueva  fuerza  tenía como   objetivo   sustituir   a   las   Unidades   de   recluta   forzosa   cuya   pobre preparación   y   frágil   moral   era   motivo   de   gran   número   de   bajas   y dificultades en el desarrollo de las operaciones terrestres.
+        <span id="dots">...</span><span id="more">
+        Real  Decreto  de  28  de  enero  de  1920,  siendo  a  la  sazón  Ministro  de Guerra  don  José  Villalba,  Su  Majestad  el  Rey  don Alfonso  XIII  tuvo  a  bien disponer lo siguiente: 
+        << Con  la  denominación  de  Tercio  de  Extranjeros  se  creará  una  Unidad militar  armada,  cuyos  efectivos,  haberes  y  reglamento  por  que  ha  de  regirse serán fijados por el Ministro de Guerra. >>
+        El   alistamiento   quedó   abierto   a   españoles   y   extranjeros   sin   mayores exigencias   que   ser   sanos,   fuertes   y   aptos   para   empuñar   las   armas, ofreciendo,  a  cambio,  la  posibilidad  de  hacer  carrera  militar  en  el  seno  de La Legión.
+        De esta  forma,  se  veía  convertido  en  realidad  lo  que  comenzó  siendo  un proyecto  del  Teniente  Coronel  de  Infantería  José  Millán  Astray,  militar  de  prestigio  que  unía  a  una  elevada formación  militar  un  demostrado  heroísmo  forjado  en  Filipinas  y  posteriormente  en  África,  donde  mandó Fuerzas  Regulares.  Incluimos  a  continuación  el  relato  que  el  propio  Teniente  Coronel  Millán  Astray  hizo  sobre  el  origen  de  esta Unidad en su libro “La Legión” escrito en marzo de 1923.</span></p>
+        <button>Leer mas+</button><br>
+    </section>
+    <section id="campaña">
+        <h1>
+        La Campaña Africana
+        </h1>
+        <p>
+        Aqui os dejo un video explicando la campaña de africa
+        https://www.youtube.com/watch?v=6U86hYkP1iE
+        </p>
+        <p>
+        <img id="dar" src="./img/darriffen.jpg" alt=""> <br><br>Según  se  producen  las  incorporaciones  de  voluntarios,  se  van formando  las  primeras  Banderas1  y  se  inicia  la  instrucción  en  la llamada  posición  A2,  verdadera  cuna  de  La  Legión,  situada  en las   proximidades   de   la   ciudad   de   Ceuta.   Posteriormente   se ocupó  el  acuartelamiento  de  Dar  Riffien,  que  disponía  de  mayor capacidad   y   mejores   instalaciones.   Volvemos   a   transcribir algunos pasajes de “La Legión” por venir muy a propósito:<span id="dots">...</span><span id="more">
+        << Los   primeros   Legionarios.-   Habíamos   sufrido   un   error   de calculo  al  pensar  en  los  hombres  que  se  habían  de  presentar. Creíamos  que  vendrían  poco  a  poco,  por  grupos  de  ocho  o  diez al  día,  y  que  luego,  con  el  conocimiento  por  la  propaganda, vendrían  más;  pero  no  pensamos  en  la  explosión,  y  fue  que  en tres  días  se  habían  reunido  cuatrocientos.  No  había  que  dudar,  y se dijo “Que vengan”
+        [...]  Los  primeros  pasos.-  En  la  posición A,  cuartel  fortificado  al noroeste  de  Ceuta,  en  lo  alto  de  un  picacho,  batido  a  los  vientos, que   la   convierten   en   sanatorio,   frecuentemente   envuelto   en nubes,  se  albergaron  los  primeros  Legionarios  y  dio  comienzo La Legión.>></span></p>
+        <button>Leer mas+</button>
+    </section>
+    <section id="videos">
+        <h1>
+        Videos Reales
+        </h1>
+        <p>
+        Aqui os muestro una serie de videos de videos reales de la legion española, como por ejemplo maniobras,desfiles etc...
 
-[...]  Los  primeros  pasos.-  En  la  posición A,  cuartel  fortificado  al noroeste  de  Ceuta,  en  lo  alto  de  un  picacho,  batido  a  los  vientos, que   la   convierten   en   sanatorio,   frecuentemente   envuelto   en nubes,  se  albergaron  los  primeros  Legionarios  y  dio  comienzo La Legión.>></span></p>
-<button onclick="myFunction()" id="myBtn">Leer mas+</button>
-</section>
-<section id="videos">
-<h1>
-Videos Reales
-</h1>
-<p>
-Aqui os muestro una serie de videos de videos reales de la legion española, como por ejemplo maniobras,desfiles etc...
+        Por motivos de privacidad youtube no permite publicar estos videos, asi que dejare la url a parte</p>
+            <iframe width="300" height="300"
+            src="https://www.youtube.com/watch?v=XguHTdTGCI8">
+            </iframe>
+            <iframe width="300" height="300"
+            src="https://www.youtube.com/watch?v=ZSmrWpFvVII">
+            </iframe>
+            <iframe width="300" height="300"
+            src="https://www.youtube.com/watch?v=lyyzUVgVgMg">
+            </iframe>
 
-Por motivos de privacidad youtube no permite publicar estos videos, asi que dejare la url a parte</p>
-<iframe width="300" height="300"
-src="https://www.youtube.com/watch?v=XguHTdTGCI8">
-</iframe>
-<iframe width="300" height="300"
-src="https://www.youtube.com/watch?v=ZSmrWpFvVII">
-</iframe>
-<iframe width="300" height="300"
-src="https://www.youtube.com/watch?v=lyyzUVgVgMg">
-</iframe>
-
-<section id="Url">
-<h1>
-Url de los Videos
-</h1>
-<p>
-https://www.youtube.com/watch?v=XguHTdTGCI8
-</p>
-<p>
-https://www.youtube.com/watch?v=ZSmrWpFvVII
-</p>
-<p>
-https://www.youtube.com/watch?v=lyyzUVgVgMg
-</p>
+    <section id="Url">
+        <h1>
+        Url de los Videos
+        </h1>
+        <p>
+        https://www.youtube.com/watch?v=XguHTdTGCI8
+        </p>
+        <p>
+        https://www.youtube.com/watch?v=ZSmrWpFvVII
+        </p>
+        <p>
+        https://www.youtube.com/watch?v=lyyzUVgVgMg
+        </p>
+    </section>
+    <section id="gallery"> 
+        <h1>
+        Galeria 
+        </h1>
+        <div class="grid-2">
+            <div class="col-2">
+                <img class="fots1" src="./img/93223912a64597b73bcd56d4db116f05.jpg" alt="militar">
+        </div>
+            <div class="col-2">
+                <img class="fots1" src="./img/43eb135de1ad6590cd35e606cfb92501.jpg" alt="militar">
+        </div>
+            <div class="col-2">
+                <img id="fots3" src="./img/8e023494632a9e081b19da8441f515f7.jpg" alt="militar">
+        </div>
+            <div class="col-2">
+                <img id="fots4" src="./img/2b6915ce8621601e2035869b5d4e3fcb.jpg" alt="militar">
+        </div>
 </section>
-<section id="gallery"> 
-<h1>
-Galeria 
-</h1>
-<img id="myImg" src="./img/hombrecargandoarma.jpg" alt="snow" >
-<div id="myModal" class="modal">
-<span class="close">&times;</span>
-<img class="modal-content" id="img01">
-<div id="caption"></div>
-</div>
-<img id="myImg" src="./img/eduard-delputte-DezIqettd-E-unsplash.jpg" alt="snow">
-<img id="myImg" src="./img/aviones.jpg" alt="snow">
-</section>
-<footer>
-    <p> Autor Alejandro Nadales</p>
-    <p>
-    Redes Sociales
-    <a href="https://www.instagram.com/nadales03/?igshid=MTNiYzNiMzkwZA%3D%3D" target="_blank" rel="noopenernoreferrer">
-        <img class="ig" src="./img/ig.jfif" alt="instagram" width="5%"></a>
-    <a href="https://github.com/Alejandronadales11" target="_blank" rel="noopenernoreferrer">
-        <img class="github" src="./img/git.png" alt="instagram" width="5%"></a>
-    </p>
+    <footer>
+        <p> Autor Alejandro Nadales</p>
+        <p> Redes Sociales
+            <a href="https://www.instagram.com/nadales03/?igshid=MTNiYzNiMzkwZA%3D%3D" target="_blank" rel="noopenernoreferrer">
+                <img class="ig" src="./img/ig.jfif" alt="instagram" width="5%"></a>
+            <a href="https://github.com/Alejandronadales11" target="_blank" rel="noopenernoreferrer">
+                <img class="github" src="./img/git.png" alt="instagram" width="5%"></a>
+        </p>
     <p>  copyright 2023</p>
-</footer>
+    </footer>
 </html>
